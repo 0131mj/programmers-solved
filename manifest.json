@@ -1,0 +1,14 @@
+{
+    "name": "Solved",
+    "description": "programmers.co.kr 에서 이미 푼 문제를 필터링해줍니다.",
+    "version": "1.0",
+    "permissions": [
+        "https://programmers.co.kr/learn/challenges"
+    ],
+    "manifest_version": 2,
+    "browser_action": {
+        "default_title": "Solved",
+        "default_popup": "index.html",
+        "default_icon": "icon.png"
+    }
+}

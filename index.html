@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Solved</title>
+    <style>
+        #wrapper {
+            display: flex;
+            flex-direction: column;
+            width: 160px;
+        }
+
+        button {
+            flex-shrink: 0;
+            border-radius: 12px;
+            border: none;
+            cursor: pointer;
+            outline: none;
+            padding: 4px;
+            background-color: #555;
+            color: #fff;
+        }
+
+        button:hover {
+            background-color: #333;
+        }
+
+        .active {
+            background-color: #228AE6;
+            color: #fff;
+        }
+
+        .active:hover {
+            background-color: #0f5899;
+        }
+
+        p {
+            margin: 4px 0 0 0;
+            word-break: keep-all;
+            line-height: 1.2rem;
+            color: #555;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="wrapper">
+        <button id="filter-solved" class="active">
+            해결한 문제 필터링
+        </button>
+        <p>programmers.co.kr에서<br/>해결한 문제를 필터링합니다.</p>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
